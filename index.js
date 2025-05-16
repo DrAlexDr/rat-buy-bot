@@ -27,7 +27,7 @@ async function fetchRATTrades() {
         perPage: 1,
         filters: [{ filterType: "STATUS", values: ["COMPLETE"] }],
         tokenId1: "",
-        tokenId2: "d2c14102cc43bc19a2a06aaca4a28039178f2ccfad50b26402806f26",
+        tokenId2: "d2c14102cc43bc19a2a06aaca4a28039178f2ccfad50b26402806f26524154",
         orderSorts: "STARTTIME",
         sortDirection: "DESC",
       },
@@ -66,7 +66,7 @@ async function fetchRATTrades() {
     );
 
     const adaFloat = parseFloat(adaUsed);
-    if (adaFloat >= 2000) {
+    if (adaFloat >= 200) {
       const bigBuyPayload = {
         username: "🐀 RAT Bot",
         embeds: [
