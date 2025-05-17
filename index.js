@@ -77,7 +77,7 @@ async function fetchRATTrades() {
 🔗 [View TX](https://cardanoscan.io/transaction/${tx})
 🕒 <t:${timestamp}:R>`,
             color: 0xff0000,
-            image: { url: "hhttps://timcheese.xyz/images/ratbig.png" },
+            image: { url: "https://timcheese.xyz/images/ratbig.png" },
             footer: {
               text: "🐀 Rug-pull Accountability Taskforce",
             },
