@@ -46,7 +46,7 @@ async function fetchRATTrades() {
     const trade = trades[0];
     const isBuy =
       trade.token_id_in === "000000000000000000000000000000000000000000000000000000006c6f76656c616365" &&
-      trade.token_id_out === "d2c14102cc43bc19a2a06aaca4a28039178f2ccfad50b26402806f26";
+      trade.token_id_out === "d2c14102cc43bc19a2a06aaca4a28039178f2ccfad50b26402806f26524154";
 
     if (!isBuy || !trade.tx_hash) return;
 
